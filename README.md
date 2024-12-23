@@ -27,4 +27,23 @@ CapEx = despesa de capital => quando há gasto inicial de dinheiro em infraestru
 OpEx = despesa operacionais => gastar com produtos e serviços conforme necessários, pagamento conforme uso, cobrado imediatamente.
 Modelo baseado em consumo.
 
+Modulo 1: Conceitos de nuvem
+
+ => Alta disponibilidade (SLA acordos de nível de serviço) isso garante que o serviço tenha disponibilidade máxima haja o que houver e como aplica-lo no dia a dia? 
+=> Escalabilidade = capacidade de ajustar recursos para atender a demanda
+Ex:. servidor arquivo adicionaríamos um disco, memoria RAM, CPU, ou seja, adaptando para uma nova necessidade.
+=>Elasticidade = quando n sei o quanto o serviço irá crescer dai nesse caso e possível adicionar maquinas virtuais ou contêineres e caso haja queda os recursos implantados são automaticamente reduzidos(horizontalmente)
+  	Ex: números de requisições, acessos
+
+=> Confiabilidade = por ser um serviço descentralizado e permitir que você tenha recursos implantados em varias regiões do mundo naturalmente a nuvem da suporte u uma infraestrutura confiável e resiliente. (se recupera de falha e continua funcionando)
+
+=>	Previsibilidade = Está muito relacionado a confiança, desempenho, custo conseguir permitir ao cliente utilizar recursos de ponta.
+=>	Segurança = A nuvem oferece ferramentas de segurança, mas a implementação de muitas dela deve ser realizada pelo cliente.
+
+========== Governança e Gerenciabilidade =========
+
+Governança = como vão ser geridos os recursos, que a empresa precisa seguir (padrões corporativos)
+Gerenciabilidade = podem ser feitos através do próprio portal, linha de comando, chamadas de APis, power shell etc... caso demanda grande há maneiras de implantar recursos usando modelo pre-configurado evitando a necessidade de fazer manual.
+
+
 
