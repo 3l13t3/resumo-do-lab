@@ -2,8 +2,7 @@
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 
 
-AZ-900: Introdução aos conceitos básicos do Microsoft Azure
-
+AZ-900: Introdução aos conceitos básicos do Microsoft Azure ☁️
 O que é computação em nuvem? => é o fornecimento de serviço de computação pela internet habilitando inovações mais rápidas, recursos flexíveis e economia de escalas.
 Computação – Rede - Armazenamento
 
