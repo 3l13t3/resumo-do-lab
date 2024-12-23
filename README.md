@@ -7,7 +7,7 @@ AZ-900: Introdução aos conceitos básicos do Microsoft Azure
 O que é computação em nuvem? => é o fornecimento de serviço de computação pela internet habilitando inovações mais rápidas, recursos flexíveis e economia de escalas.
 Computação – Rede - Armazenamento
 
-1. Nuvem privada = Quando se possui a própria arquitetura ambiente em nuvem no próprio Data Center, as organizações são responsáveis por 
+1.☁️Nuvem privada = Quando se possui a própria arquitetura ambiente em nuvem no próprio Data Center, as organizações são responsáveis por 
      operar os serviços não fornece acesso aos usuários fora da organização.
 2.  Nuvem Publica = Quando a entrega de serviços e recursos a uma serie de clientes por meio de um único provide(no caso aqui 
      Microsoft)vantagem quando empresa multinacional.
