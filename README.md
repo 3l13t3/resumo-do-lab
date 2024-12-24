@@ -17,7 +17,9 @@ Computação – Rede - Armazenamento
 
 =>	Nuvem publica = nenhuma despesa de capital para escalar verticalmente (CapEx) aplicativos podem ser provisionados e desprovisionados 
      rapidamente as organizações pagam apenas pelo que utiliza.
+     
 =>	Nuvem privada = As organizações que tem o controle sobre os recursos tais como: segurança, manutenção e atualizações do hardware.
+
 =>	Nuvem Hibrida =  As organizações que determina onde executar os app, controla a segurança, a conformidade e os requisitos legais nesse 
      caso  fornece maior flexibilidade.
 
