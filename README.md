@@ -24,6 +24,7 @@ Computação – Rede - Armazenamento
 ========== Comparando CapEx e OpEx: ==========
 
 CapEx = despesa de capital => quando há gasto inicial de dinheiro em infraestrutura física essas despesas se reduzem com o tempo.
+
 OpEx = despesa operacionais => gastar com produtos e serviços conforme necessários, pagamento conforme uso, cobrado imediatamente.
 Modelo baseado em consumo.
 
