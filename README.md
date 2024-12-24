@@ -45,5 +45,19 @@ Ex:. servidor arquivo adicionaríamos um disco, memoria RAM, CPU, ou seja, adapt
 Governança = como vão ser geridos os recursos, que a empresa precisa seguir (padrões corporativos)
 Gerenciabilidade = podem ser feitos através do próprio portal, linha de comando, chamadas de APis, power shell etc... caso demanda grande há maneiras de implantar recursos usando modelo pre-configurado evitando a necessidade de fazer manual.
 
+========== Tipos de Serviço de Nuvem na Azure ===========
+
+IaaS – PaaS – SaaS => trata-se de serviços genéricos de nuvem cada provide possuem seus produtos.
+	Infraestrutura como serviço = Servidores e armazenamento, Firewall e segurança de rede, Planta física e edifício de data center, serviço de nuvem mais flexível, você configura e gerencia o hardware para seu app. Maior gestão.
+
+	Plataforma como serviço = Engloba IaaS, mas não foca no gerenciamento da infraestrutura <- ferramentas para desenvolvedores, analise de negócios de gerenciamento de data-base, Sistemas operacionais focado no desenvolvimento de app o gerenciamento é feito pelo provedor de nuvem. Gestão Intermediaria.
+
+	Software como serviço = Aplicativos e Apps hospedados ,onde já se sabe o que entrega, o que determina (o que usuários veem) é o modelo de licenciamento adquirido, preço de pagamento conforme o uso pelo software utilizado. Menor gestão.
+
+Modelo de responsabilidade compartilhada 
+
+As responsabilidades diferem de acordo com o tipo de serviço adquirido e ou contratado.
+
+
 
 
