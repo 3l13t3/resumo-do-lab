@@ -72,6 +72,12 @@ Pares de regiões e grupos de recursos = os pares consistem no mínimo 300 milha
 
 Regiões Soberanas = instancias fisicamente separadas dos serviços de nuvem do azure operada pela 21Vianet. Os recursos são os mesmos.
 
+	Os recursos do Azure = maquinas virtuais, contas de armazenamento, redes virtuais, serviços de aplicativos, banco de dados SQL, funções.
+
+	Grupo de recursos = container usado para gerenciar e agregar recursos de forma a organizar as coisas em uma única unidade, podem existir em apenas um grupo de recursos, e podem existir em diferentes regiões, podem ser movidos para diferentes grupos de recursos, os aplicativos podem utilizar vários grupos de recursos.
+
+
+
 
 
 
