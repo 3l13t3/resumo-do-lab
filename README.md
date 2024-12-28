@@ -91,7 +91,7 @@ Em Região será definido o local onde esse grupo estará
      Visualizador de recursos = conforme é criado os recursos ele vai moldando os desenhos de forma a criar arvore
      Eventos = está relacionado a automatizações
      
-Criando também uma rede virtual = Usado para o endereçamento de rede usado para o ambiente é possível através de modelo via código criar automações de forma que seja replicado trocando somente nome do resouce group.
+Criando também uma rede virtual = que sera utilizado para o endereçamento( ex:. ao criar maquinas virtuais)é possível através de modelo via código criar automações de forma que seja replicado, trocando somente nome do resouce group gerando mais praticidade e rapidez na entrega do servico.
 
 
 
