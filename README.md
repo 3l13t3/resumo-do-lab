@@ -87,10 +87,10 @@ Criando grupo de Recursos = onde será criado o grupo que compartilhará mesmo c
 
 Em Região será definido o local onde esse grupo estará 
 
-    __ Logs de atividades = quando queremos saber algo __
+     **Logs de atividades = quando queremos saber algo **
      ** IAM = permissões definidas no grupo/usuário **
-     Visualizador de recursos = conforme é criado os recursos ele vai moldando os desenhos de forma a criar arvore
-     Eventos = está relacionado a automatizações
+     ** Visualizador de recursos = conforme é criado os recursos ele vai moldando os desenhos de forma a criar arvore **
+     ** Eventos = está relacionado a automatizações **
      
 Criando também uma rede virtual = que sera utilizado para o endereçamento( ex:. ao criar maquinas virtuais)é possível através de modelo via código criar automações de forma que seja replicado, trocando somente nome do resouce group gerando mais praticidade e rapidez na entrega do servico.
 
