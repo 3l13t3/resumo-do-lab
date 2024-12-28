@@ -84,13 +84,15 @@ Conta do azure = uma única assinatura que pode utilizar vários recursos.
 =========== Criando grupo de recursos visão pratica ============
 
 Criando grupo de Recursos = onde será criado o grupo que compartilhará mesmo ciclo de vida, permissões e politica.
+
 Em Região será definido o local onde esse grupo estará 
-Logs de atividades = quando queremos saber algo
-IAM = permissões definidas no grupo/usuário
-Visualizador de recursos = conforme é criado os recursos ele vai moldando os desenhos de forma a criar arvore
-Eventos = está relacionado a automatizações
+     Logs de atividades = quando queremos saber algo
+     IAM = permissões definidas no grupo/usuário
+     Visualizador de recursos = conforme é criado os recursos ele vai moldando os desenhos de forma a criar arvore
+     Eventos = está relacionado a automatizações
+     
 Criando também uma rede virtual = Usado para o endereçamento de rede usado para o ambiente é possível através de modelo via código criar automações de forma que seja replicado trocando somente nome do resouce group.
-![image](https://github.com/user-attachments/assets/6416921b-31bc-4266-91f6-c391e9c652b5)
+
 
 
 
