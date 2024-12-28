@@ -62,6 +62,18 @@ Modelo de responsabilidade compartilhada
 
 As responsabilidades diferem de acordo com o tipo de serviço adquirido e ou contratado.
 
+Modulo 2: Arquitetura e Serviços do Azure
+
+	Componentes de Arquitetura do Azure
+
+Regiões = zonas de disponibilidade que se comunicam através da rede Microsoft são compostas por um ou mais datacenters próximos, fornece flexibilidade e escala para reduzir a latência do cliente as residências dos dados são preservadas abrangendo a oferta de conformidade. 
+
+Pares de regiões e grupos de recursos = os pares consistem no mínimo 300 milhas de separação entre pares de região (os serviços de desastre recovery vão ser direcionados).
+
+Regiões Soberanas = instancias fisicamente separadas dos serviços de nuvem do azure operada pela 21Vianet. Os recursos são os mesmos.
+
+
+
 
 
 
