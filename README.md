@@ -94,6 +94,10 @@ Em Região será definido o local onde esse grupo estará
      
 Criando também uma rede virtual = que sera utilizado para o endereçamento( ex:. ao criar maquinas virtuais)é possível através de modelo via código criar automações de forma que seja replicado, trocando somente nome do resouce group gerando mais praticidade e rapidez na entrega do servico.
 
+     E assim ficou meu primeiro grupo de recurso, vazio por hora, porem criado 😅
+     
+![Grupo De Recurso](https://github.com/3l13t3/resumo-do-lab/blob/main/GrupoRecursos.png)
+
 
 
 
