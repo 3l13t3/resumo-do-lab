@@ -76,6 +76,24 @@ Regiões Soberanas = instancias fisicamente separadas dos serviços de nuvem do 
 
 	Grupo de recursos = container usado para gerenciar e agregar recursos de forma a organizar as coisas em uma única unidade, podem existir em apenas um grupo de recursos, e podem existir em diferentes regiões, podem ser movidos para diferentes grupos de recursos, os aplicativos podem utilizar vários grupos de recursos.
 
+	Assinatura da Azure e grupos de gerenciamento
+
+Conta do azure = uma única assinatura que pode utilizar vários recursos.
+1 conta pode ter diversas assinaturas, mas 1 assinatura esta associada a apenas	uma conta, as assinaturas herdam as condições aplicadas ao grupo de gerenciamento.
+
+=========== Criando grupo de recursos visão pratica ============
+
+Criando grupo de Recursos = onde será criado o grupo que compartilhará mesmo ciclo de vida, permissões e politica.
+Em Região será definido o local onde esse grupo estará 
+Logs de atividades = quando queremos saber algo
+IAM = permissões definidas no grupo/usuário
+Visualizador de recursos = conforme é criado os recursos ele vai moldando os desenhos de forma a criar arvore
+Eventos = está relacionado a automatizações
+Criando também uma rede virtual = Usado para o endereçamento de rede usado para o ambiente é possível através de modelo via código criar automações de forma que seja replicado trocando somente nome do resouce group.
+![image](https://github.com/user-attachments/assets/6416921b-31bc-4266-91f6-c391e9c652b5)
+
+
+
 
 
 
