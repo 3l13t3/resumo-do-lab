@@ -86,7 +86,8 @@ Conta do azure = uma única assinatura que pode utilizar vários recursos.
 Criando grupo de Recursos = onde será criado o grupo que compartilhará mesmo ciclo de vida, permissões e politica.
 
 Em Região será definido o local onde esse grupo estará 
-     Logs de atividades = quando queremos saber algo
+
+    __ Logs de atividades = quando queremos saber algo __
      IAM = permissões definidas no grupo/usuário
      Visualizador de recursos = conforme é criado os recursos ele vai moldando os desenhos de forma a criar arvore
      Eventos = está relacionado a automatizações
