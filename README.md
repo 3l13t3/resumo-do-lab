@@ -99,6 +99,43 @@ Criando também uma rede virtual = que sera utilizado para o endereçamento( ex:
 ![Grupo De Recurso](https://github.com/3l13t3/resumo-do-lab/blob/main/GrupoRecursos.png)
 
 
+========== Sobre recursos,dimensionamento em maquinas virtuais ==========
+
+A configuração de recursos e o dimensionamento de máquinas virtuais (VMs) são essenciais para garantir que a infraestrutura virtualizada atenda às necessidades de desempenho, custo e escalabilidade. O processo envolve a escolha da quantidade de recursos (como CPU, memória e armazenamento) e a seleção da família de VMs mais adequada, levando em conta os requisitos de carga de trabalho.
+A configuração dos recursos de uma máquina virtual inclui principalmente a quantidade de CPU, memória (RAM) e armazenamento. É importante entender a carga de trabalho que será executada na VM para determinar o que cada componente precisa.
+
+-> CPU (Processador) Esta relacionado a capacidade de Processamento a escolha do número de núcleos de CPU e da frequência de operação depende da intensidade computacional da carga de trabalho. Aplicações como bancos de dados, processamento de dados e servidores de aplicação podem exigir mais núcleos ou uma maior frequência de CPU.
+
+-> Memória (RAM) esta relacionado ao tamanho da Memória, a quantidade de RAM necessária depende de como a aplicação gerencia dados em memória. Por exemplo, bancos de dados e caches de aplicações demandam mais memória, enquanto outras cargas podem ser mais leves.desempenho de Memória/velocidade da memória também pode impactar o desempenho, mas normalmente é mais difícil de ajustar do que o tamanho.
+
+-> Armazenamento o tipo de Armazenamento pode ser SSD (Solid State Drive), HDD (Hard Disk Drive) ou até opções mais avançadas como discos NVMe. VMs que envolvem grandes volumes de leitura e escrita frequentemente se beneficiam de SSDs a capacidade de Armazenamento determina o quanto de dados pode ser armazenado na VM. Aplicações que gerenciam grandes quantidades de dados, como sistemas de arquivos, bancos de dados ou sistemas de big data, precisarão de mais capacidade.
+
+========== Escolha da Família de Máquinas Virtuais ==========
+
+O Azure oferece diferentes famílias de máquinas virtuais, cada uma otimizada para cenários específicos. A escolha correta depende do tipo de carga de trabalho e dos requisitos de recursos da aplicação.
+Famílias Baseadas em "Uso Geral"são equilibradas em termos de CPU, memória e armazenamento e são ideais para a maioria das aplicações gerais.
+- Azure Série D =>  Equilibradas entre CPU e memória, adequadas para aplicativos como servidores web, bases de dados de médio porte e ambientes de desenvolvimento.
+
+Famílias Otimizadas para Processamento são focadas em desempenho computacional intenso e são indicadas para cálculos pesados, como simulações científicas, renderização 3D, etc.
+- Azure Série => Focadas em alta capacidade de processamento.
+
+Famílias Otimizadas para Memória têm mais memória RAM disponível em relação à CPU, sendo indicadas para cargas de trabalho que exigem grande capacidade de memória, como bancos de dados em memória ou caches distribuídos.
+- Azure Série E => Focadas em cargas de trabalho que exigem grande quantidade de RAM.
+
+Famílias Otimizadas para Armazenamento são projetadas para fornecer alto desempenho em operações de leitura e gravação em discos e são indicadas para bancos de dados de alto desempenho ou big data.
+- Azure Série Ls => Focada em alto desempenho de armazenamento.
+
+Famílias para GPUs sao máquinas virtuais com GPUs ideais para cargas de trabalho como aprendizado de máquina, renderização gráfica, processamento de vídeo, etc.
+- Azure Série N => Oferece VMs com GPUs NVIDIA para cargas de trabalho com gráficos ou IA.
+
+ O que considerar na Escolha da Família de VMs?
+->Custo = Cada família de VM tem um custo diferente. As VMs de alto desempenho (com mais CPU ou memória) tendem a ser mais caras. É importante balancear o custo com o desempenho exigido pela aplicação.
+->Escalabilidade = Algumas famílias oferecem melhores opções de escalabilidade, como a capacidade de aumentar ou reduzir dinamicamente a quantidade de recursos conforme a carga de trabalho muda.
+->Desempenho = Certifique-se de que a máquina virtual escolhida tem os recursos adequados para suportar o desempenho necessário para a aplicação.
+->Localização e Disponibilidade = Considere onde a VM será hospedada e se ela está disponível em várias regiões, o que pode afetar a latência e a disponibilidade.
+A configuração de recursos e o dimensionamento de máquinas virtuais são decisões cruciais para garantir que a infraestrutura virtualizada atenda de forma eficiente às necessidades de cada aplicação. A escolha da família de VMs deve considerar o tipo de carga de trabalho, os requisitos de desempenho e a relação custo-benefício, bem como a flexibilidade de dimensionamento e a escalabilidade da plataforma.
+
+
 
 
 
