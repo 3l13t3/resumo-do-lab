@@ -135,6 +135,58 @@ Famílias para GPUs sao máquinas virtuais com GPUs ideais para cargas de trabal
 ->Localização e Disponibilidade = Considere onde a VM será hospedada e se ela está disponível em várias regiões, o que pode afetar a latência e a disponibilidade.
 A configuração de recursos e o dimensionamento de máquinas virtuais são decisões cruciais para garantir que a infraestrutura virtualizada atenda de forma eficiente às necessidades de cada aplicação. A escolha da família de VMs deve considerar o tipo de carga de trabalho, os requisitos de desempenho e a relação custo-benefício, bem como a flexibilidade de dimensionamento e a escalabilidade da plataforma.
 
+========= Armazenamento do Azure ==========
+
+Contas de armazenamento deve ser um nome globalemente exclusivo(Tipo CPF)
+ex:. STO+nomeprojeto/resoucegroup+nome deve ter acesso a internet em todo o mundo, determinar os serviços de armazenamento e opçoes de redundancia.
+
+-> Redundancia de armazenamento
+	
+ .LRS(armazenamento com redundancia local) sua implantaçao e em datacenter individual 	  na regiao primaria sua durabilidade e de 11 noves.
+	
+ .ZRS(armazenamento com redundancia de zona) sua implantacao e em tres zonas de 	  disponibilidade na regiao primaria sua durabilidade e de 12 noves.
+	
+ .GRS(armazenamento com redundancia geografica) sua implantacao e em datacenter unico 	  no primario e regiao secundaria sua durabilidade e de 16 noves.
+	
+ .GZRS(armazenamento com redundancia de zona geografica) sua implantaçao e em tres 	  zonas de disponibilidade na regiao primaria e um unico datacerter na regiao 	  secundaria sua durabilidade e de 16 noves. 
+
+ -> Os serviços  
+ 
+ =>Blob do Azure otimizado para armazenaamento massivo de dados nao estruturados ex: Texto, dados binarios. Existem 4 modelos de dados que ele vai receber.
+
+=> Disco do Azure fornece discos  para maquinas virtuais
+
+
+=> Fila do Azure armazenamento para recuperaçao
+
+=> Arquivos do Azure configura compartilhamento
+
+
+=> Tabelas do Azure fornece opcao chave/atributo
+  os pontos de extremidade publico tem o seguinte padrao
+https://<storage-account-name>.blob.core.windows.net
+
+-> Camadas de acesso 
+
+Frequente = otimizado para acesso frequentes
+
+Esporadico = otimizado para acesso com pouca frequencia pelo menos 30 dias
+
+Frio = otimizado para acesso com pouca frequencia pelo menos 90 dias
+
+Arquivo morto = otimizado para acesso raros pelo menos 180 dias  com requisito de latencia  flexivel.
+
+->Migraçao para Azure
+
+=> Azure Data Box utilizado para serviço de migraçao fisica ate 80T,dados sao totalmente criptografado.ideal para locais remotos  com conectividade limitada ou sem conectividade.
+
+ => Opçoes de gerenciamento de arquivos - AzCopy(utilitario de linha de comando) copia dados para o Blobs ou arquivos para conta de armazenamento do Azure.
+ 
+ => Gerenciamendor de armazenamento do azure(app instalado na maquina) é mais amigavel pois possui interface grafica e compativel com windows,MacOs e Linux.
+ 
+ => Sincronizaçao de arquivos do Azure = sincroniza os arquivos  do azure e locais de forma biderecional,a camada de nuvem mantem os arquivos acessados com frequencia no local enquanto libera espaço. 
+
+
 
 
 
