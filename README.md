@@ -187,6 +187,15 @@ Arquivo morto = otimizado para acesso raros pelo menos 180 dias  com requisito d
  => Sincronizaçao de arquivos do Azure = sincroniza os arquivos  do azure e locais de forma biderecional,a camada de nuvem mantem os arquivos acessados com frequencia no local enquanto libera espaço. 
 
 
+========= Microsoft Entra ID ==========
+
+A segurança e identidade no Microsotf Azure sao aspectos fundamentais para proteger dados e recursos na nuvem, alem de garantir que somente usuarios e sistemas autorizados tenham acesso aos recursos adequados.
+
+Para que as informações sejam validadas de forma correta usa-se o serviço de gerenciamento de identidade **Microsoft Entra ID**(ou antigamente chamado de Azure AD) com ele é feito a autenticação, logon único, gerenciamento de aplicativos, negócios para negócios(B2B) e gerenciar dispositivos.
+
+* Autenticaçao: permite que você autentique usuarios e dispositivos(em nuvem ou on premise).suporta autenticaçao multifator(MFA) uma camada a mais de segurança.
+
+*  Autorização: define o nivel de acesso,definem quais dados podem ser acessados inclusive em aplicativos de terceiros utilizando  atraves de politicas de acesso baseadas em funçao(RBAC)
 
 
 
