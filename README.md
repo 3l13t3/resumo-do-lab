@@ -198,7 +198,49 @@ Para que as informações sejam validadas de forma correta usa-se o serviço de 
 *  Autorização: define o nivel de acesso,definem quais dados podem ser acessados inclusive em aplicativos de terceiros utilizando  atraves de politicas de acesso baseadas em funçao(RBAC)
 
 
+   Otimizando custos no Azure 
 
+========= Fatores que afetam os custos =========
+
+1ºTipo de recurso
+
+os custos sao especificos do recurso
+
+2ºConsumo
+
+com modelo pago conforme o uso
+
+3ºManutençao
+
+monitorar o volume do Azure e manter o ambiente
+
+4ºArea geografica
+
+dependendo da area geografica o mesmo tipo de recursos tem valores diferentes
+
+5ºTrafego de rede
+
+o custo para dados de saida ou dados entre recurso do azure é afetado por zonas de cobrança.
+
+6º Assinatura
+
+o tipo e  a configuraçao da assinatura
+
+-> Azure Marketplace => onde e possivel encontrar recursos, experimente ou provisione app.
+quand adicionado recurso nao nativo(o suporte n e da microsoft e sim do fabricante)
+
+
+========== Calculando o custo total do Azzure =========
+
+Ela tras uma estimatica baseado nos recursos apresentados.
+regiao - camada - opc de cobranca - opc de suporte - programa e ofertas - preco de desenvolvimento/teste do Azure.
+TCO => ferramnta para ajudar ter uma visao de recursos(que ja tem,indo para a nuvem) dentro do Azure.
+gerenciamento => relatorios de cobrança - enriquecimento de dados
+ex: definir orçamento de gastos, quando custo excede os limites, recomendaçoes de custo.
+
+========== Marcas(tags) no Azure ==========
+
+sao elementos(nao obrigatorios e nao sao herdaveis) elas ->fornecem metadados aos recursos ->sao organizadas em uma taxonomia de maneira logica, ->consistem em um par nome-valor sao ->uteis para reunir informaçoes de cobrança.dica(criar apolice exigindo q se n tiver tag n sera criado ou colocar caso reccurso n tenha tag herdar do resource group )
 
 
 
