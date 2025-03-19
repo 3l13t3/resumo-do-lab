@@ -230,7 +230,7 @@ o tipo e  a configuraçao da assinatura
 quand adicionado recurso nao nativo(o suporte n e da microsoft e sim do fabricante)
 
 
-========== Calculando o custo total do Azzure =========
+========== Calculando o custo total do Azure =========
 
 Ela tras uma estimatica baseado nos recursos apresentados.
 regiao - camada - opc de cobranca - opc de suporte - programa e ofertas - preco de desenvolvimento/teste do Azure.
@@ -241,6 +241,27 @@ ex: definir orçamento de gastos, quando custo excede os limites, recomendaçoes
 ========== Marcas(tags) no Azure ==========
 
 sao elementos(nao obrigatorios e nao sao herdaveis) elas ->fornecem metadados aos recursos ->sao organizadas em uma taxonomia de maneira logica, ->consistem em um par nome-valor sao ->uteis para reunir informaçoes de cobrança.dica(criar apolice exigindo q se n tiver tag n sera criado ou colocar caso reccurso n tenha tag herdar do resource group )
+
+Modulo 3: Gerenciamento e Governança
+
+========= Governança e Conformidade =========
+
+
+.Politicas(Azure Policy) => serve para criar padroes de conformidade referente a recursos dentro	da organizaçao ela fornece governança e consistencia de recursos com conformidade regulatoria,segurança,custo e gerenciamento.os conjuntos de regras sao definidas e aplicadas para garantir que os recursos sejam configurados de acordo com os requisitos da organizaçao ajudando a manter a governança sobre os recursos,permitindo automatizar e auditar a conformidade com as diretrizes da empresa.E como funciona? DEFINIR = a politica e definida de acordo com os requisitos especificos da organizaçao,como permitir ou negar o uso de determinado recurso. APLICAR = uma vez definida,apolitica pode ser aplicada em diferentes niveis.ex:assinatura, grupo de recursos ou uma unica instancia de recurso. AUDITAR = a politica pode ser configurada para auditar e relatar a conformidade sem forçar correçao de açoes ajudando a identificar recursos que estao fora das normas.AÇAO = dependendo da politica,pode permitir,negar ou modoficar açoes ou a criaçao de novos recursos que estejam em conformidade.E quais sao os tipo? POLITICA DE DEFINIÇAO onde e definido comportamento de um recurso,como tipo de maquina virtual permitida ou a utilizaçao de determinados TAG nos recursos. AUDITORIA permite auditar  se os recursos estao ou nao conformes com os requisitos da politica sem necessariamente bloquear açoes. FORÇAR aplicada para impedir que um recurso seja criado ou modificado se nao atender a determinada condiçoes.
+
+.Bloqueio de recursos => Evitar que recursos sejam modificados, gerencia bloqueio 		na assinatura, grupo de recursos ou niveis de recursos individuais dentro 		do Azure.(bloqueios sao herdados)
+	tipos de bloqueio  LER    Atualizar  Excluir 
+	Excluir            sim    sim	     nao
+	ReadOnly           sim    nao        nao
+
+
+. Portal de confiança do serviço => Onde e identificado todas as regras que a 	microsoft segue(protocolo para atender as espectativas das empresas, 	governo).
+.Microsoft Purview => Serve para gerenciamento de governança,risco e conformidade.
+	tanto dados locais, multinuvem e de software como serviço.
+	descoberta de dados automatizada	
+	Classificaçao de dados confidenciais
+	Linhagem de dados de ponta a ponta
+
 
 
 
