@@ -262,6 +262,20 @@ Modulo 3: Gerenciamento e Governança
 	Classificaçao de dados confidenciais
 	Linhagem de dados de ponta a ponta
 
+ ========== Ferramentas de Gerenciamento e Implantação ==========
+ 
+ -> ferramentas para interagir com o Azure
+ 
+	.Portal do Azure     .Azure PowerShell
+	.Azure Cloud Shell  .Interface de linha de comando(CLI)
+ 
+->Azure Arc = ferramenta de multicloud ou seja é possível fazer a gestão num único portal(administra as maquinas que esta fora)
+
+->Azure Resource Manager(ARM) fornece uma camada de gerenciamento que permite criar ,atualizar e excluir  recursos de assinatura do azure.
+
+->Infraestrutura como código garante consistência na implantação em todo ecossistema de nuvem, gerencia a configuração em escala, provisionando ambientes adicionais  com base em uma configuração e um build padrão.
+
+
 
 
 
