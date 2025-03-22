@@ -276,6 +276,128 @@ Modulo 3: Gerenciamento e Governança
 ->Infraestrutura como código garante consistência na implantação em todo ecossistema de nuvem, gerencia a configuração em escala, provisionando ambientes adicionais  com base em uma configuração e um build padrão.
 
 
+=========== Monitoramento Inteligente com o Azure ===========
+
+As ferramentas de monitoramento são ideias para ajudar a garantir a saúde, o desempenho e a segurança dos recursos na nuvem, elas fornecem uma ampla gama de monitoramento e gerenciamento, desde infraestrutura ate segurança e aplicativos, permitindo um ambiente eficiente e protegido.
+
+->	Azure Monitor 
+
+É a plataforma centralizada de monitoramento para todos os serviços do Azure. Ele coleta dados de telemetria de várias fontes, como métricas, logs e diagnósticos.
+
+-	Principais funcionalidades: 
+
+o	Métricas e Logs: Coleta dados de métricas e logs dos recursos do Azure.
+
+o	Alertas: Permite configurar alertas com base em métricas ou logs para notificar os administradores sobre qualquer anomalia.
+
+o	Dashboards: Visualização personalizada dos dados coletados.
+
+o	Application Insights: Uma extensão do Azure Monitor para monitorar e diagnosticar aplicações em tempo real.
+
+-> Azure Log Analytics
+-	Descrição: O Log Analytics é uma ferramenta do Azure Monitor que ajuda a consultar e analisar dados de logs.
+
+o	Consultas em Log: Usa o Kusto Query Language (KQL) para consultas avançadas nos dados de log.
+
+o	Armazenamento de Dados: Armazena logs e métricas de aplicativos, sistemas operacionais e serviços Azure.
+
+o	Integração com outros serviços: Integra-se facilmente com o Azure Security Center, Azure Sentinel e outros.
+
+->	Azure Application Insights 
+
+-	Descrição: O Application Insights é uma ferramenta específica para monitoramento de desempenho de aplicativos. Ela ajuda a detectar problemas de desempenho e analisar o uso de aplicativos.
+	
+•	Principais funcionalidades:
+
+o	Monitoramento de Aplicações: Coleta métricas e logs sobre a performance de aplicativos (front-end, back-end).
+
+o	Análise de Falhas: Identifica e diagnostica falhas em tempo real.
+
+o	Insights de Usuário: Fornece dados sobre como os usuários estão interagindo com a aplicação.
+
+->	Azure Network Watcher
+
+-	Descrição: O Network Watcher é uma ferramenta específica para monitoramento de rede no Azure.
+	
+•	Principais funcionalidades:
+
+o	Monitoramento de Tráfego: Monitora e diagnostica o tráfego de rede entre recursos do Azure.
+
+o	Visualização de Topologia de Rede: Permite visualizar a topologia de rede e suas interações.
+
+o	Diagnóstico de Conectividade: Oferece ferramentas como a verificação de conectividade, capturas de pacotes e análise de fluxo de rede.
+
+->	Azure Security Center 
+
+-	Descrição: O Azure Security Center monitora a segurança dos recursos do Azure, oferecendo proteção contra ameaças e sugestões para melhorar a postura de segurança.
+	
+•	Principais funcionalidades: 
+
+o	Avaliação de Segurança: Fornece recomendações baseadas nas melhores práticas de segurança.
+
+o	Detecção de Ameaças: Detecta atividades suspeitas e gera alertas.
+
+o	Compliance: Ajuda a garantir a conformidade com padrões de segurança, como ISO, GDPR, etc.
+
+
+->	Azure Sentinel 
+
+-	Descrição: O Azure Sentinel é uma solução de SIEM (Security Information and Event Management) baseada na nuvem para monitoramento e resposta a incidentes de segurança.
+	
+•	Principais funcionalidades: 
+
+o	Análise de Dados de Segurança: Reúne dados de várias fontes e aplica análises para detectar ameaças.
+
+o	Automação de Respostas: Permite automatizar respostas a incidentes de segurança.
+
+o	Integração com Azure Security Center: Complementa o Azure Security Center com análises e visibilidade em tempo real.
+
+->	Azure Automation 
+
+-	Descrição: O Azure Automation ajuda a automatizar tarefas repetitivas e operações de TI.
+  
+•	Principais funcionalidades: 
+
+o	Runbooks: Automatiza tarefas de gerenciamento de recursos no Azure.
+
+o	Gestão de Atualizações: Automatiza o processo de atualização e patching de recursos.
+
+o	Monitoramento e Alertas: Permite configurar alertas de execução de scripts e automações.
+
+
+->	Azure Service Health
+
+-	Descrição: O Azure Service Health fornece informações sobre a integridade dos serviços e recursos do Azure, alertando quando há problemas que possam afetar os serviços.
+	
+•	Principais funcionalidades: 
+
+o	Alertas de Incidentes: Notifica sobre interrupções e degradações de serviço em tempo real.
+
+o	Plano de Recuperação: Ajuda a criar planos de recuperação para garantir a continuidade dos negócios.
+
+->	Azure Cost Management and Billing
+
+-	Descrição: O Azure Cost Management ajuda a monitorar e gerenciar os custos de uso de recursos no Azure.
+	
+•	Principais funcionalidades: 
+
+o	Monitoramento de Custos: Exibe o uso de recursos e os custos associados a eles.
+
+o	Orçamento e Alertas de Custo: Permite definir orçamentos e configurar alertas para quando os custos atingem um limite.
+
+->	Azure Advisor
+
+-	Descrição: O Azure Advisor é uma ferramenta de recomendação personalizada que sugere boas práticas para otimizar a performance, segurança, custo e confiabilidade dos recursos no Azure.
+  
+•	Principais funcionalidades: 
+
+o	Recomendações Personalizadas: Sugestões para melhorar a performance, segurança e reduzir custos.
+
+o	Integração com outros serviços: Funciona em conjunto com outras ferramentas de monitoramento como Azure Monitor e Azure Security Center.
+
+
+
+
 
 
 
